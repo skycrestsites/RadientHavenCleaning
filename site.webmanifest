@@ -1,0 +1,14 @@
+{
+  "name": "Radiant Haven Cleaning Services",
+  "short_name": "Radiant Haven",
+  "description": "Reliable house, deep, recurring and commercial cleaning in Rancho Cucamonga, CA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a365d",
+  "lang": "en-US",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
