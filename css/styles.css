@@ -120,6 +120,7 @@ p { margin: 0 0 1rem; }
 
 .brand { display: inline-flex; align-items: center; gap: .75rem; }
 .brand-mark { flex: none; }
+.brand-logo { display: block; height: 56px; width: auto; border-radius: 10px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
 .brand-text strong { font-family: var(--serif); font-style: italic; font-size: 1.22rem; color: var(--brand); font-weight: 700; letter-spacing: -0.01em; }
 .brand-text em { font-style: normal; font-size: .6rem; font-weight: 600; letter-spacing: .3em; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
@@ -574,6 +575,7 @@ p { margin: 0 0 1rem; }
   .trustbar-inner { gap: .45rem 1.15rem; }
   .brand-text strong { font-size: 1.08rem; }
   .brand-text em { letter-spacing: .22em; }
+  .brand-logo { height: 46px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
