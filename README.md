@@ -25,7 +25,7 @@ the domain at it.
    Search the whole folder for `slcpremiercleaning` and replace:
    - `https://slcpremiercleaning.com` (canonicals, Open Graph, JSON-LD, `sitemap.xml`, `robots.txt`)
    - `hello@slcpremiercleaning.com` (all pages + `js/main.js`)
-   - `slcpremiercleaning.bookingkoala.com` (the booking iframe + preconnect in `index.html`).
+   - `radianthavencleaningservices.bookingkoala.com` (the booking iframe + preconnect in `index.html`).
      Until this is swapped, bookings made on this site go to SLC Premier's BookingKoala account.
 1. Phone number: replace the placeholder `(909) 000-0000` in `index.html`
    (contact section + footer, and the `tel:` links).
