@@ -394,9 +394,10 @@ p { margin: 0 0 1rem; }
 
 /* ---------- Contact ---------- */
 .contact { background: var(--mist); border-top: 1px solid var(--line); }
-.contact-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: clamp(2.5rem, 5vw, 4.5rem); align-items: start; }
+.contact-grid { display: grid; gap: clamp(2.5rem, 5vw, 4.5rem); align-items: start; max-width: 680px; }
 .contact-copy, .quote-form { min-width: 0; }
 .contact-copy h2 { margin-bottom: 1.2rem; }
+.contact-cta { margin-top: 2rem; }
 .contact-info { list-style: none; margin: 2rem 0 0; padding: 0; display: grid; gap: 1.1rem; }
 .contact-info li { display: flex; align-items: center; gap: .9rem; font-weight: 500; font-size: .96rem; color: var(--ink); }
 .contact-info svg { width: 22px; height: 22px; color: var(--gold-ink); flex: none; }
